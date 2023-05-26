@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: whitesmoke;
+    color: purple;
+  }
+
+h1 {
+    font-size: 200%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style-type: none;
+}
+
+nav a {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+
+
