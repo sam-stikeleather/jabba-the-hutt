@@ -39,11 +39,16 @@ section {
     padding-right: 5%;
 }
 article {
-    border-bottom: 1px solid darkgreen;
+    border-bottom: 10px solid darkgreen;
 }
 article p {
     margin: 2% 0;
     font-size: 110%;
+}
+
+article li {
+    font-size: 110%;
+    font-family: sans-serif;
 }
 span[data-descr] {
     position: relative;
@@ -84,6 +89,8 @@ p {
     font-family: 'Fira Sans', sans-serif;
 }
 
-
+.card img {
+    width: 100px;
+}
 
 
