@@ -3,8 +3,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: whitesmoke;
-    color: purple;
+    background-color: darkgreen;
+    color: white;
   }
 
 h1 {
@@ -12,14 +12,14 @@ h1 {
 }
 
 nav ul {
-    display: flex;
+    display: inline-block;
     justify-content: space-between;
-    min-width: 30px;
+    min-width: 40px;
     list-style-type: none;
 }
 
 nav a {
-    color: black;
+    color: lightgray;
     font-weight: bolder;
     text-decoration: none;
 }
@@ -64,6 +64,24 @@ span[data-descr]:hover::after {
     color: purple;
     font-size: 110%;
     z-index: 1;
+}
+
+aside {
+    width: 40%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px darkgreen;
+    font-style: italic;
+    color: darkgreen;
+}
+
+aside > p {
+    margin: 0.5rem;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
 }
 
 
